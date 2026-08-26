@@ -517,7 +517,7 @@ const R9=GH+"ningj8622-coder/-1/554d68072b068abbc69fcffc9e1ce657af209c21";R10=GH
                     tang_mi: '唐'
                 };
 
-                const sceneText = `$1`;
+                const sceneText = (document.getElementById('nsfw-data-raw') || {}).textContent || '';
                 const canonicalNames = Object.keys(characters);
 
                 function normalizeName(value) { return (value || '').replace(/\s+/g,
