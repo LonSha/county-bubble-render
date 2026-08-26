@@ -1751,6 +1751,7 @@ var _dcEnvData={tod:_dcTod,weather:_dcWeather,season:_dcSeason,location:_dcScene
   /* ====== 主处理函数（同步，确保立即渲染） ====== */
   function processText(cfg){
     var root=document.getElementById('dcRoot');
+    if(root){var _dcTheme=localStorage.getItem('dc-color-theme')||'cool';if(_dcTheme==='warm')root.setAttribute('data-theme','warm');}
     if(!root)return;
 
     cfg=cfg||{};
@@ -2051,4 +2052,20 @@ var _dcEnvData={tod:_dcTod,weather:_dcWeather,season:_dcSeason,location:_dcScene
     document.addEventListener('DOMContentLoaded', startBubbleRenderWhenStable, { once:true });
     window.addEventListener('load', startBubbleRenderWhenStable, { once:true });
   }
+
+  /* === Theme Toggle === */
+  window.dcToggleTheme=function(){
+    var root=document.getElementById('dcRoot');
+    if(!root)return 'none';
+    var current=root.getAttribute('data-theme')||'cool';
+    var next=current==='warm'?'cool':'warm';
+    if(next==='warm'){root.setAttribute('data-theme','warm');}
+    else{root.removeAttribute('data-theme');}
+    try{localStorage.setItem('dc-color-theme',next);}catch(e){}
+    return next;
+  };
+  window.dcGetTheme=function(){
+    try{return localStorage.getItem('dc-color-theme')||'cool';}catch(e){return 'cool';}
+  };
+
 })();
