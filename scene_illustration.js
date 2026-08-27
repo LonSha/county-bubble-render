@@ -175,7 +175,8 @@ const R4=GH+"vmkudz-sys/my-image-bed/main/lin_jia_daily.png";
             wen_qian: R1,luo_man: R1,tang_mi: GH+"HaoX520/-/refs/heads/main/tang_mi",xia_qi: R1,yang_xiaoxue: R1,pei_shuquan: R1,
             zhi_yun: GH+"ningj8622-coder/-1/554d68072b068abbc69fcffc9e1ce657af209c21",luo_ke_ke: GH+"ningj8622-coder/-1/8ce3b51cff803e8db22e90b8639b1cd6a6efcd8d",
             jiang_jingyu: R1,
-            li_zhao: R1
+            li_zhao: R1,
+            lin_yue: GH+"ningj8622-coder/-1/1b8b808c9bbfc79ba68476dfd4342312d15dbc5d"
           };
 
           const charOverrides = {
