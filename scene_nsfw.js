@@ -110,7 +110,9 @@ const R9=GH+"ningj8622-coder/-1/554d68072b068abbc69fcffc9e1ce657af209c21";R10=GH
                     // 🆕 智允
                     zhi_yun: R9,
                     // 唐蜜
-                    tang_mi: GH+'HaoX520/-/refs/heads/main/tang_mi'
+                    tang_mi: GH+'HaoX520/-/refs/heads/main/tang_mi',
+                    // 林悦
+                    lin_yue: 'https://raw.githubusercontent.com/ningj8622-coder/-1/1b8b808c9bbfc79ba68476dfd4342312d15dbc5d'
                 };
 
                 const VERSION2_CONFIG = {
@@ -423,7 +425,9 @@ const R9=GH+"ningj8622-coder/-1/554d68072b068abbc69fcffc9e1ce657af209c21";R10=GH
                     // 🆕 智允
                     '智允': 'zhi_yun',
                     // 唐蜜
-                    '唐蜜': 'tang_mi'
+                    '唐蜜': 'tang_mi',
+                    // 林悦
+                    '林悦': 'lin_yue'
                 };
 
                 const fallbackAvatars = {
@@ -514,7 +518,9 @@ const R9=GH+"ningj8622-coder/-1/554d68072b068abbc69fcffc9e1ce657af209c21";R10=GH
                     // 🆕 智允占位符
                     zhi_yun: '智',
                     // 唐蜜占位符
-                    tang_mi: '唐'
+                    tang_mi: '唐',
+                    // 林悦
+                    lin_yue: '林'
                 };
 
                 const sceneText = (document.getElementById('nsfw-data-raw') || {}).textContent || '';
