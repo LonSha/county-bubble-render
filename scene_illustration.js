@@ -70,7 +70,8 @@ const R4=GH+"vmkudz-sys/my-image-bed/main/lin_jia_daily.png";
             韦青青: "weiqingqing",萧容鱼: "xiao_rongyu",魏莱: "wei_lai",沈幼楚: "shen_youchu",
             沈静宜: "shen_jingyi",文茜: "wen_qian",珞曼: "luo_man",唐蜜: "tang_mi",
             夏祈: "xia_qi",杨小雪: "yang_xiaoxue",裴姝权: "pei_shuquan",智允: "zhi_yun",
-            江静屿: "jiang_jingyu",罗可可: "luo_ke_ke",黎昭: "li_zhao"
+            江静屿: "jiang_jingyu",罗可可: "luo_ke_ke",黎昭: "li_zhao",
+            林悦: "lin_yue"
           };
 
           const canonicalNames = Object.keys(nameToIdMap);
