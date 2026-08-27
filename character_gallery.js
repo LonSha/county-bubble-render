@@ -131,6 +131,7 @@ const GH = "https://raw.githubusercontent.com/";
       "luo_hua", "yang_can", "zhao_shiqing", "zhu_juexiang", "zhu_yue",
       "zhi_yun",
       "luo_ke_ke",
+      "lin_yue",
     ];
 
     const NO_NUDE_SELFIE_CHARS = ["tang_mi"];
