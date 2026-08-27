@@ -311,6 +311,7 @@ const GH = "https://raw.githubusercontent.com/";
       { id: "pei_shuquan", name: "裴姝权", preset: "modern", sfwBase: R35, nsfwBase: R35, overrides: {} },
       { id: "zhi_yun", name: "智允", preset: "modern", sfwBase: R44, nsfwBase: R44, overrides: { daily: R44 + "/zhi_yun_outing.png", outing: R44 + "/zhi_yun_daily.png", uniform: R44 + "/zhi_yun_uniform.png", nsfw: R44 + "/zhi_yun_nsfw.png" } },
       { id: "luo_ke_ke", name: "罗可可", preset: "modern", sfwBase: R45, nsfwBase: R45, overrides: { daily: R45 + "/luo_ke_ke_outing.png", outing: R45 + "/luo_ke_ke_daily.png", uniform: R45 + "/luo_ke_ke_uniform.png", nsfw: R45 + "/luo_ke_ke_nsfw.png" } },
+      { id: "lin_yue", name: "林悦", preset: "modern", sfwBase: "https://raw.githubusercontent.com/ningj8622-coder/-1/1b8b808c9bbfc79ba68476dfd4342312d15dbc5d", nsfwBase: "https://raw.githubusercontent.com/ningj8622-coder/-1/1b8b808c9bbfc79ba68476dfd4342312d15dbc5d", overrides: { uniform: "https://raw.githubusercontent.com/ningj8622-coder/-1/1b8b808c9bbfc79ba68476dfd4342312d15dbc5d/lin_yue_uniform.png", outing: "https://raw.githubusercontent.com/ningj8622-coder/-1/1b8b808c9bbfc79ba68476dfd4342312d15dbc5d/lin_yue_outing.png", daily: "https://raw.githubusercontent.com/ningj8622-coder/-1/1b8b808c9bbfc79ba68476dfd4342312d15dbc5d/lin_yue_daily.png", nsfw: "https://raw.githubusercontent.com/ningj8622-coder/-1/1b8b808c9bbfc79ba68476dfd4342312d15dbc5d/lin_yue_nsfw.png" } },
       { id: "tang_mi", name: "唐蜜", preset: "modern", sfwBase: GH+"HaoX520/-/refs/heads/main/tang_mi", nsfwBase: GH+"HaoX520/-/refs/heads/main/tang_mi", overrides: { exhibition: GH+"HaoX520/-/refs/heads/main/tang_mi/tang_mi__exhibition.png", vulva_selfie: GH+"HaoX520/-/refs/heads/main/tang_mi/tang_mi_vulva_selfie.png" } }
     ];
 
@@ -334,7 +335,7 @@ const GH = "https://raw.githubusercontent.com/";
       liu_qiyin: "刘", bai_xiaoxue: "白", lin_wenxia: "林", xu_yuanji: "许",
       xu_yuan: "许", anlin: "安", shujing: "淑", lanxin: "兰",
       sunqi: "孙", zhu_yue: "朱", zhao_shiqing: "赵", zhu_juexiang: "祝",
-      pei_shuquan: "裴", zhi_yun: "智", tang_mi: "唐"
+      pei_shuquan: "裴", zhi_yun: "智", tang_mi: "唐", lin_yue: "林"
     };
 
     // --- 全局状态管理 ---
